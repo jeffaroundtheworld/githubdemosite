@@ -1,0 +1,71 @@
+@font-face {
+    font-family: nasty;
+    src: url(HorrorType.ttf);
+  }
+
+
+
+
+#title {
+    background-color: aqua;
+    font-size:300%;
+    text-align: center;
+    width:100%;
+    box-shadow: 30px 30px;
+}
+
+#menubar {
+    background-color: darkolivegreen;
+    width:20%;
+    height:500px;
+    position:absolute;
+    left:80%;
+}
+
+#ads {
+    background-color: cadetblue;
+    width:20%;
+    height:500px;
+    position:absolute;
+    left:0px;
+   
+}
+
+#content {
+    box-sizing: border-box;
+    width: 60%;
+    border:red dotted 5px;
+    padding: 20px;
+    position:absolute;
+    left: 20%;
+}
+
+.good{
+    color:rgb(3, 36, 182);
+    font-size: 125%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.bad{
+    color: rgb(223, 162, 9);
+    font-size: 80%;
+    font-family: nasty;
+}
+
+a:link {
+    color:chartreuse;
+}
+
+a:visited {
+    color:rgb(249, 37, 246);
+}
+
+a:hover{
+    color: brown;
+    text-decoration: none;
+    background-color: aquamarine;
+}
+
+a:active{
+    background-color: red;
+}
